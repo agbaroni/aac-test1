@@ -4,4 +4,4 @@
   tasks:
     - name: Print another message
       debug:
-        msg: world
+        msg: '{{ my_message|default("world", true) }}'
