@@ -1,0 +1,7 @@
+---
+- name: Second playbook
+  hosts: all
+  tasks:
+    - name: Print another message
+      debug:
+        msg: world
